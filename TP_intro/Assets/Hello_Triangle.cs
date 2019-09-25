@@ -54,10 +54,10 @@ public class Hello_Triangle : MonoBehaviour
             }
         }
 
-        /*for(int i = 0; i < 2 * 3 * nbCol * nbRow; i++)
+        for(int i = 0; i < 2 * 3 * nbCol * nbRow; i++)
         {
             Debug.Log("i = " + i + " : " + vertices[i]);
-        }*/
+        }
 
         Mesh msh = new Mesh();
 
