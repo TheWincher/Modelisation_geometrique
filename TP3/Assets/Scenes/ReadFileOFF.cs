@@ -79,7 +79,7 @@ public class ReadWriteFileOFF
 
         //Write all apex
         for (int i = 0; i < vertices.Length; i++)
-            writer.WriteLine(vertices[i].x + " " + vertices[i].y + " " + vertices[i].z);
+            writer.WriteLine(vertices[i].x.ToString(new CultureInfo("en-US")) + " " + vertices[i].y.ToString(new CultureInfo("en-US")) + " " + vertices[i].z.ToString(new CultureInfo("en-US")));
 
         //Write all index of triangles
         for (int i = 0; i < triangles.Length; i += 3)
